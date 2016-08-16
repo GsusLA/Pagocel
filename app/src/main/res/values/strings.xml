@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Pagocel</string><string name="action_settings">Settings</string>
+    <string name="inicio_ingresar">Ingresar</string>
+    <string name="title_activity_conf_inicial">Configuración Inicial</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mensaje1">Ingrese su codigo de activacion que le fue enviado a su e-mail</string>
+    <string name="mensaje2">Para mayor seguridad, ingrese un codigo de 4 digitos para la confirmacion de cada compra</string>
+    <string name="bttConfirm">Enviar</string>
+    <string name="title_activity_menu">Menu de Opciones</string>
+    <string name="bttpagos">Pagos</string>
+    <string name="bttsaldo">Saldo</string>
+    <string name="btttransf">Traspaso</string>
+    <string name="bttmovim">Movimientos</string>
+    <string name="bttnegafil">Negocios Afiliados</string>
+    <string name="bttpromos">Promociones</string>
+    <string name="title_activity_pagos">Pago de Consumos</string>
+    <string name="tvpagos1">Ingrese el Código de Negocio</string>
+    <string name="tvpagos2">Ingrese el Monto a Pagar</string>
+    <string name="bttpagar">Pagar</string>
+    <string name="title_activity_movim">Pagos y Depositos</string>
+    <string name="tvMovimientos">Consulte el historial de pagos y depositos hechos en su cuenta Pagocel</string>
+    <string name="bttMovpagos">Pagos</string>
+    <string name="bttMovDeposit">Depositos</string>
+    <string name="title_activity_movdepos">Depositos</string>
+    <string name="title_activity_movpagos">Pagos</string>
+    <string name="title_activity_negafiliados">Negocios Afiliados</string>
+    <string name="title_activity_transferencia">Transferencia de Saldo</string>
+    <string name="title_activity_promos">Promociones</string>
+    <string name="tvmenu">"Bienvenido "</string>
+    <string name="msjpass">Contraseña</string>
+    <string name="construccion">SITIO EN CONSTRUCCIÓN</string>
+    <string name="vuelve">Por favor vuelve pronto</string>
+    <string name="TranfMensaje">Envia credito a otros usuarios PAGOCEL, solo ingresa su número telefonico y listo.</string>
+    <string name="hintTranspNumero">Número Telefonico</string>
+    <string name="hintTranspmonto">Monto del Transpaso</string>
+    <string name="hintConfInicCodigo">Código de Activación</string>
+    <string name="hintConfInicPAgo">Código de Pagos</string>
+    <string name="hintConsumoNegocio">Código de Negocio</string>
+    <string name="hintConsumoPago">Cantidad a Pagar</string>
+    <string name="hintIngresoTelefono">Número Telefonico</string>
+    <string name="hintIngresoPassw">Contraseña</string>
+    <string name="movPagosMsg1">Pagos Realizados </string>
+    <string name="logo">Pagocel </string>
+    <string name="pagosMsg1">Negocio : </string>
+    <string name="pagosMsg2">Monto   : </string>
+    <string name="pagosMsg3">Fecha   : </string>
+    <string name="nAfilMsg1">Negocio : </string>
+    <string name="nAfilMsg2">Giro   : </string>
+    <string name="nAfilMsg3">Dirección   : </string>
+    <string name="recargasMonto">Monto</string>
+    <string name="recargasBanco">Banco</string>
+    <string name="recargasFecha">Fecha</string>
+    <string name="logoMap">Mapa </string>
+    <string name="msgMenu">Seleccione una Opción</string>
+    <string name="msgInicioSes">Ingrese sus Datos de Inicio de Sesión</string>
+
+</resources>

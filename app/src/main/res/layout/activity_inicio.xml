@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo1"
+    tools:context="club.pagocel.allinn.pagocel.InicioActivity">
+
+    <Button
+        android:id="@+id/bttIngresar"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/etInicioPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_default"
+        android:text="@string/inicio_ingresar" />
+
+    <TextView
+        android:id="@+id/tvLinea2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/tvmenu"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/etInicioPass"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:layout_alignRight="@+id/etInicioTel"
+        android:layout_marginTop="270dp"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/hintIngresoPassw"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/tvMonto"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/tvLinea2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@color/azul_p"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse" />
+
+    <EditText
+        android:id="@+id/etInicioTel"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tvMonto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/hintIngresoTelefono"
+        android:inputType="phone" >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvInicioSesio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvMonto"
+        android:layout_marginTop="27dp"
+        android:text="@string/msgInicioSes" />
+</RelativeLayout>
