@@ -37,7 +37,7 @@ public class InicioActivity extends AppCompatActivity {
         passw = (EditText)findViewById(R.id.etInicioPass);
         acceso = (Button)findViewById(R.id.bttIngresar);
 
-        // Clase que maneja el evento del boton Ingresar de la pantalla principal
+        // Clase que maneja el evento del boton Ingresar
         Acceso();
     }
 
